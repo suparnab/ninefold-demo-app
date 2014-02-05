@@ -6,4 +6,5 @@ class ApplicationController < ActionController::Base
   def nothing
     render text: '', layout: 'application'
   end
-end
+
+# end <- intentially borked
